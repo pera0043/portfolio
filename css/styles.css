@@ -8,7 +8,6 @@
     --bs-blue: #1B7667;
     --bs-black: #000;
     --bs-white: #fff;
-
 }
 
 .navbar-nav .nav-link,
@@ -18,18 +17,48 @@
 }
 
 
+.navbar-nav .nav-link,
+.navbar-nav .nav-link:link,
+.navbar-nav .nav-link:visited{
+  color: var(--bs-primary);
+  /* padding-left: 15px; */
+}
+.navbar-nav .nav-link:hover,
 .navbar-nav .nav-link:focus,
 .navbar-nav .nav-link.active{
   background-color: var(--bs-primary);
-  border-radius: 50px;
-  width: 75px;
   color: var(--bs-white);
-  padding-left: 16px;
+  border-radius: 50px;
+} 
+
+.btn-dark {
+    --bs-btn-bg: var(--bs-dark);
+    --bs-btn-border-color: var(--bs-dark);
+    --bs-btn-hover-bg: var(--bs-dark);
+    --bs-btn-hover-border-color: var(--bs-dark);
+    --bs-btn-active-bg: var(--bs-dark);
+    --bs-btn-active-border-color: var(--bs-dark);
+    --bs-btn-disabled-bg: var(--bs-dark);
+    --bs-btn-disabled-border-color: var(--bs-dark);
 }
 
-.navbar-nav .nav-link:hover{
-    color: var(--bs-primary);
+body {
+    font-family: 'Archivo', sans-serif;
 }
+
+
+.banner {
+    background: var(--bs-secondary) url(../images/header.jpg) no-repeat center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.gradient {
+    background: var(--bs-secondary) url(../images/bg-gradient.jpg) no-repeat center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 
 
 
