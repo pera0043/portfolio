@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="130" viewBox="0 0 130 130">
+  <g id="figma" transform="translate(-751 -5333)">
+    <circle id="Ellipse_32" data-name="Ellipse 32" cx="65" cy="65" r="65" transform="translate(751 5333)" fill="#e2e2e2"/>
+    <g id="figma-icon" transform="translate(796.72 5370)">
+      <path id="Path_207" data-name="Path 207" d="M10.491,23.542A9.211,9.211,0,0,0,19.7,14.331V5.12H10.491a9.211,9.211,0,1,0,0,18.422Z" transform="translate(0 31.723)" fill="#286f6c"/>
+      <path id="Path_208" data-name="Path 208" d="M1.28,11.771A9.211,9.211,0,0,1,10.491,2.56H19.7V20.982H10.491A9.211,9.211,0,0,1,1.28,11.771Z" transform="translate(0 15.862)" fill="#286f6c"/>
+      <path id="Path_209" data-name="Path 209" d="M1.28,9.211A9.211,9.211,0,0,1,10.484,0h9.211V18.422h-9.2A9.211,9.211,0,0,1,1.28,9.211Z" transform="translate(0)" fill="#286f6c"/>
+      <path id="Path_210" data-name="Path 210" d="M3.84,0h9.211a9.211,9.211,0,0,1,0,18.422H3.84Z" transform="translate(15.862)" fill="#286f6c"/>
+      <path id="Path_211" data-name="Path 211" d="M22.262,11.771A9.211,9.211,0,1,1,13.051,2.56a9.211,9.211,0,0,1,9.211,9.211Z" transform="translate(15.862 15.862)" fill="#286f6c"/>
+    </g>
+  </g>
+</svg>
