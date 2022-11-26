@@ -49,8 +49,8 @@ body {
 
 .banner {
     background: var(--bs-secondary) url(../images/header.jpg) no-repeat center;
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .gradient {
@@ -66,8 +66,8 @@ body {
 
 #services img {
     align-self: center;
-    width: 100px;
-    height: 100px;
+    /* width: 100px;
+    height: 100px; */
     } 
 
 #areas img {
