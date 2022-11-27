@@ -53,14 +53,17 @@ body {
 
 .gradient {
     background: var(--bs-secondary) url(../images/bg-gradient.jpg) no-repeat center;
+}
+
+#contact {
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
-
-
-
-
+#experience {
+    padding-top: 65px;
+    padding-bottom: 70px;
+}
 
 #services img {
     align-self: center;
@@ -69,9 +72,3 @@ body {
 #areas img {
     align-self: center;
     } 
-
-.social-icons {
-    /* width: 50px;
-    height: 50px;
-     */
-}
