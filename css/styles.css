@@ -51,6 +51,8 @@ body {
     padding-bottom: 100px;
 }
 
+
+
 .gradient {
     background: var(--bs-secondary) url(../images/bg-gradient.jpg) no-repeat center;
 }
