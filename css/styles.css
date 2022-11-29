@@ -16,13 +16,12 @@
   color: var(--bs-black);
 }
 
-
 .navbar-nav .nav-link,
 .navbar-nav .nav-link:link,
 .navbar-nav .nav-link:visited{
   color: var(--bs-primary);
 }
-.navbar-nav .nav-link:hover,
+
 .navbar-nav .nav-link:focus,
 .navbar-nav .nav-link.active{
   background-color: var(--bs-primary);
@@ -41,17 +40,32 @@
     --bs-btn-disabled-border-color: var(--bs-dark);
 }
 
+.btn-outline-primary {
+    --bs-btn-color: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+    --bs-btn-hover-bg: var(--bs-primary);
+    --bs-btn-hover-border-color: var(--bs-primary);
+    --bs-btn-active-bg: var(--bs-primary);
+    --bs-btn-active-border-color: var(--bs-primary);
+    --bs-btn-disabled-color: var(--bs-primary);
+    --bs-btn-disabled-border-color: var(--bs-primary);
+}
+
+.btn-outline-primary:hover{
+    background: none;
+    color: var(--bs-primary);
+}
+
 body {
     font-family: 'Archivo', sans-serif;
 }
 
 .banner {
     background: var(--bs-secondary) url(../images/header.jpg) no-repeat center;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    background-size: cover;
+    padding-top: 95px;
+    padding-bottom: 95px;
 }
-
-
 
 .gradient {
     background: var(--bs-secondary) url(../images/bg-gradient.jpg) no-repeat center;
@@ -74,3 +88,4 @@ body {
 #areas img {
     align-self: center;
     } 
+
