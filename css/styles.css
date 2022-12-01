@@ -81,13 +81,13 @@ body {
     padding-bottom: 70px;
 }
 
-#services img {
+/* #services img {
     align-self: center;
-    } 
+    }  */
 
-#areas img {
+/* #areas img {
     align-self: center;
-    } 
+    }  */
 
 /* Hover CSS states from hover.css  */
 
@@ -245,11 +245,13 @@ body {
     } 
 
     }
- /* Styles applied below width of 767px  mobile NAVIGATION */
+  /* Styles applied below width of 767px  mobile NAVIGATION */
 
- @media screen and (min-width: 1400px){
-  /* Styles applied for minimum width of 650px and over */
+
+   /* Styles applied for minimum width of 1400px and over */
+ /* @media screen and (min-width: 1400px){
+
   #services img {
     align-self: center;
     } 
-}
+} */
