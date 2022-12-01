@@ -66,9 +66,16 @@ body {
     padding-top: 95px;
     padding-bottom: 95px;
 }
+/* switching background image for desktop size */
+/* @media screen and (min-width:780px){
+  .banner {
+    background-image: url(../images/header.jpg) ;
+  }
+} */
 
 .gradient {
     background: var(--bs-secondary) url(../images/bg-gradient.jpg) no-repeat center;
+    background-size: cover;
 }
 
 #contact {
@@ -81,18 +88,10 @@ body {
     padding-bottom: 70px;
 }
 
-/* #services img {
-    align-self: center;
-    }  */
-
-/* #areas img {
-    align-self: center;
-    }  */
-
 /* Hover CSS states from hover.css  */
 
 /* Bounce In */
-.hvr-bounce-in {
+  .hvr-bounce-in {
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -109,7 +108,7 @@ body {
   }
 
   /* Grow */
-.hvr-grow {
+  .hvr-grow {
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -126,7 +125,7 @@ body {
   }
 
   /* Wobble Vertical */
-@-webkit-keyframes hvr-wobble-vertical {
+  @-webkit-keyframes hvr-wobble-vertical {
     16.65% {
       -webkit-transform: translateY(8px);
       transform: translateY(8px);
