@@ -233,8 +233,9 @@ body {
     -webkit-transform: scale(0.9);
     transform: scale(0.9);
   }
+  
  
-
+  /* Styles applied below width of 767px  mobile NAVIGATION */
   @media (max-width: 767px) {
     .navbar-nav .nav-link:focus,
     .navbar-nav .nav-link.active{
@@ -243,5 +244,12 @@ body {
       color: var(--bs-white);
     } 
 
-    
-  }
+    }
+ /* Styles applied below width of 767px  mobile NAVIGATION */
+
+ @media screen and (min-width: 1400px){
+  /* Styles applied for minimum width of 650px and over */
+  #services img {
+    align-self: center;
+    } 
+}
