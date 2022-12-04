@@ -61,22 +61,27 @@ body {
 }
 
 .banner {
-    background: var(--bs-secondary) url(../images/header.jpg) no-repeat center;
+    background: var(--bs-secondary) url(../images/header-small.png) no-repeat center;
     background-size: cover;
     padding-top: 95px;
     padding-bottom: 95px;
 }
-/* switching background image for desktop size */
-/* @media screen and (min-width:780px){
+.gradient {
+  background: var(--bs-secondary) url(../images/bg-gradient-small.jpg) no-repeat center;
+  background-size: cover;
+}
+
+/* switching header and gradient bg image for desktop size */
+@media screen and (min-width:780px){
   .banner {
     background-image: url(../images/header.jpg) ;
   }
-} */
 
-.gradient {
-    background: var(--bs-secondary) url(../images/bg-gradient.jpg) no-repeat center;
-    background-size: cover;
+  .gradient {
+    background-image: url(../images/bg-gradient.jpg) ;
+  }
 }
+
 
 #contact {
     padding-top: 100px;
