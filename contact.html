@@ -66,7 +66,7 @@
             <h2 class="fs-2 text-center mt-5 ">Let’s Level up your brand, together.</h2>
              <div>
                 <h3 class="fs-5 text-center">We would love to hear from you.</h3>
-                <form>
+                <form class="ms-5-md me-5-md">
                   <div class="mb-4 mt-5">
                     <label for="fullname" class="form-label">Name</label>
                     <input type="text" class="form-control p-3 rounded-0" id="fullname" placeholder="Your Name">
@@ -75,6 +75,21 @@
                     <label for="useremail" class="form-label">Email</label>
                     <input type="email" class="form-control p-3 rounded-0" id="useremail" placeholder="email@gmail.com">
                   </div>
+
+                  <div class="col-auto mb-4">
+                    <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                    <label for="message" class="form-label">What are you interested in?</label>
+                    <select class="form-select rounded-0 p-3" id="autoSizingSelect">
+                      <option selected>Select...</option>
+                      <option value="1">UI/UX Designing</option>
+                      <option value="2">Graphic Designing</option>
+                      <option value="3">Branding & Packaging</option>
+                      <option value="4">Stationery & Printing</option>
+                      <option value="5">Art & Illustration</option>
+                      <option value="6">Photography</option>
+                    </select>
+                  </div>
+
                   <div class="mb-4">
                     <label for="message" class="form-label">How can I help?</label>
                     <textarea class="form-control p-3 rounded-0" name="message" id="message" placeholder="Tell me about your project" cols="30" rows="5"></textarea>

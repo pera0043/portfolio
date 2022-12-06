@@ -8,6 +8,7 @@
     --bs-blue: #1B7667;
     --bs-black: #000;
     --bs-white: #fff;
+    --bs-info: #6c757d;
 }
 
 .navbar-nav .nav-link,
@@ -82,6 +83,10 @@ body {
   }
 }
 
+
+.form-select {
+  color: var(--bs-info);
+}
 
 #contact {
     padding-top: 100px;
